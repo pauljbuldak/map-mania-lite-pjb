@@ -9,10 +9,14 @@
 	<head>
 		<title>Map Mania Lite</title>
 		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
-		<scipt src="map-mania-lite.js"></script>
-		<link rel="stylesheet" href="map-mania-lite.css">	
+		<script src="map-mania-lite.js"></script>
+		<link rel="stylesheet" href="map-mania-lite.css">
 	</head>
-	<body>
-		<h1>Map Mania Lite - v1.2</h1>
+	<body onload="initApplication()">
+		<h1>Map Mania Lite - v1.3</h1>
+
+		<div id="myMapID"></div>
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDz1a4hOSmTLQneqeEbhkgDWnWr_U1juHU&callback=initMap">
+		</script>
 	</body>
 </html>
